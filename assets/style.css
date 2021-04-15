@@ -6,21 +6,18 @@
 
 /* Mobile First */
 body {
-    min-height: 100%;
-    margin:0px;
+    font-family: 'Space Mono';
     padding-left: 23px;
     }
 
 
-.father1 {
+.content {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
-    align-content: center;
 }    
 
 .msjfour {
-    text-align: left;
     font-family: 'Inconsolata', monospace;
     font-style:normal;
     font-weight:bolder;
@@ -35,28 +32,23 @@ body {
 .image {
     width: 286.83px;
     margin-top: 64px;
-    margin-left: 21px;
 }
 
 .image img{
     width: 100%;
 }
 
-.textButton h1{
+.mainInfo h2{
     margin-top: 60px;
-    font-family: 'Space Mono';
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 71px;
     letter-spacing: -0.035em;
-    color: #333333;
 }
 
-.textButton p{
-    width: 328px;
+.mainInfo p{
     margin-top: 30px;
-    font-family: 'Space Mono';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -65,118 +57,65 @@ body {
     color: #4f4f4f;
 }
 
-.textButton a{
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.035em;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #333333;
-    padding: 24px 43px;
-    display: inline-block;
-    text-decoration: none;
+.mainInfoBtn {
+    padding: 23px 43px;
     margin-top: 66px;
+    background-color: #333333;
+    color: #ffffff;
+    font-family: Space Mono;
+    text-transform: uppercase;
 }
 
-.footer{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #BDBDBD;
+footer {
     margin-top: 114px;
-/*     bottom: 0px;
-    margin:10px auto;
-    width: 100%;
-    height: 2.5rem; */
-    }
+    font-family: Montserrat;
+    color: #bdbdbd;
+    text-align: center;
+}
 
 
-    /*Big Displays*/
+/*Big Displays*/
 
-    @media (min-width:768px){
+@media only screen and (min-width:900px){
         
-        .msjfour {
-            text-align: left;
-            font-family: 'Inconsolata', monospace;
-            font-style:normal;
-            font-weight:bolder;
-            font-size: 24px;
-            line-height: 25px;
-            letter-spacing: -0.08em;
-            text-transform: uppercase;
-            color: #333333; 
-            margin: 5%; 
-        }
+body {
+    padding: 44px 77px;
+}
 
-        .row{
-            flex-direction: row;
-            margin-top: 5rem;
-            margin-bottom: 5rem;
-        }
+.content {
+    margin-top: 265px;
+    height: 450px;
+    flex-direction: row;
+    justify-content: center;
+}
 
-        .image .textButton{
-            padding: 5%;
-        }
+.image {
+    width: auto;
+    min-width: 286.83px;
+    max-width: 539.22px;
+    margin-right: 118.78px;
+}
 
-        .image img{
-            width: 100%;
-        }
+.mainInfo {
+    max-width: 586px;
+}
 
-        .textButton h1{
-            font-family: 'Space Mono';
-            font-style: normal;
-            font-weight: bold;
-            font-size: 64px;
-            line-height: 95px;
-            letter-spacing: -0.035em;
-            color: #333333;
-        }
+.mainInfo h2 {
+    margin: 0;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
 
-        .textButton p{
-            font-family: 'Space Mono';
-            font-style: normal;
-            font-weight: normal;
-            font-size: 24px;
-            line-height: 36px;
-            letter-spacing: -0.035em;
-            color: #4f4f4f;
-        }
-        
-        .textButton a{
-            font-family: 'Space Mono';
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 21px;
-            letter-spacing: -0.035em;
-            text-transform: uppercase;
-            color: #fff;
-        
-            background-color: #333333;
-            padding: 24px 43px;
-            display: inline-block;
-            text-decoration: none;
-        }
+.mainInfo p {
+    max-width: 381px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
 
-        .footer{
-            font-family: 'Montserrat', sans-serif;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 17px;
-        
-            text-align: center;
-        
-            color: #BDBDBD;
-            bottom: 0px;
-            margin:0 auto;
-            width: 100%;
-            height: 2.5rem;
-            }
-    }
+footer {
+    margin-top: 300px;
+}
+
+}
