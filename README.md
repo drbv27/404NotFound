@@ -42,6 +42,10 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
   The site demo it's [here](https://laughing-hopper-e272ac.netlify.app/)
 
 - What was your experience?
+Initially I tried to do it with CSS Grid first, but this was a real headache. Then I thought about doing it with Flexbox and MediaQ, and found that I didn't remember practically anything about it; so I had to review a bit. I am not an expert in GitHub, so this work helped me a lot to review the use of Git. Very good exercise to review a lot of CSS.
+
+- What have you learned/improved?
+CSS, Flexbox, MediaQueries
 
 ### Built With
 
