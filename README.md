@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](thumbnail1.png)
+![screenshot](https://github.com/drbv27/404NotFound/blob/main/assets/img/thumbnail1.PNG)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
